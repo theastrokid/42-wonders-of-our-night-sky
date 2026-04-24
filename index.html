@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>42 Wonders of Our Night Sky · An Immersive Astronomy Experience</title>
+  <meta name="description" content="Forty-two deep sky wonders, fourteen episodes, one interactive journey. Rate each wonder on beauty, power and mystery, and see how it looks through a $500, $1,000,000, and $1,000,000,000 telescope." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles/base.css?v=46" />
+  <link rel="stylesheet" href="styles/master.css?v=46" />
+</head>
+<body>
+
+  <div class="starfield-bg" aria-hidden="true">
+    <div class="starfield-bg__layer starfield-bg__layer--a"></div>
+    <div class="starfield-bg__layer starfield-bg__layer--b"></div>
+    <div class="starfield-bg__layer starfield-bg__layer--c"></div>
+  </div>
+  <div class="stardust-container" aria-hidden="true"></div>
+
+  <header class="topnav">
+    <div class="container topnav__inner">
+      <a href="./index.html" class="topnav__logo">
+        <span class="mark">42</span>
+        <span>Wonders of Our Night Sky</span>
+      </a>
+      <nav class="topnav__links">
+        <a href="#wonders">Wonders</a>
+        <a href="#bonus">Bonus</a>
+        <a href="#how">How it works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="m-hero m-hero--split" id="s-home-hero" data-home-hero>
+      <div class="container m-hero__inner">
+        <figure class="m-hero__video-wrap" data-hero-tilt>
+          <video class="m-hero__video"
+                 data-home-hero-video
+                 src="assets/hero/home-hero.mp4"
+                 muted
+                 loop
+                 playsinline
+                 preload="auto"
+                 autoplay></video>
+          <div class="m-hero__video-gradient"></div>
+          <span class="m-hero__corner m-hero__corner--tl" aria-hidden="true"></span>
+          <span class="m-hero__corner m-hero__corner--tr" aria-hidden="true"></span>
+          <span class="m-hero__corner m-hero__corner--bl" aria-hidden="true"></span>
+          <span class="m-hero__corner m-hero__corner--br" aria-hidden="true"></span>
+          <div class="m-hero__video-badge">
+            <span class="dot" aria-hidden="true"></span>
+            <span>Episode 01 · Sombrero · Hercules · Orion</span>
+          </div>
+        </figure>
+
+        <div class="m-hero__text">
+          <div class="m-hero__eyebrow">
+            <span class="bullet" aria-hidden="true"></span>
+            <span>An astronomy series by <strong>Damon Scotting</strong></span>
+          </div>
+
+          <h1 class="m-hero__title">
+            The greatest <em>wonders</em> of our night sky, <em>ranked</em>.
+          </h1>
+
+          <p class="m-hero__lede">
+            Across fourteen episodes, 42 deep sky objects scored on <span class="axis axis--beauty">beauty</span>, <span class="axis axis--power">power</span> and <span class="axis axis--mystery">mystery</span>, then placed on the Wonderwall. Each one seen through a $500 Seestar, a $1,000,000 observatory and the $1,000,000,000 Hubble.
+          </p>
+
+          <div class="m-hero__ctas">
+            <a class="m-btn m-btn--primary" href="#wonders">
+              <span>Start at Episode 01</span>
+              <span class="m-btn__arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="m-btn m-btn--ghost" href="#how">How it works</a>
+          </div>
+
+          <div class="m-hero__stats">
+            <div class="m-hero__stat">
+              <span class="m-hero__stat-value" data-stat="42">0</span>
+              <span class="m-hero__stat-label">Wonders</span>
+            </div>
+            <div class="m-hero__stat-sep" aria-hidden="true"></div>
+            <div class="m-hero__stat">
+              <span class="m-hero__stat-value" data-stat="14">0</span>
+              <span class="m-hero__stat-label">Episodes</span>
+            </div>
+            <div class="m-hero__stat-sep" aria-hidden="true"></div>
+            <div class="m-hero__stat">
+              <span class="m-hero__stat-value" data-stat="10">0</span>
+              <span class="m-hero__stat-label">Bonus</span>
+            </div>
+            <div class="m-hero__stat-sep" aria-hidden="true"></div>
+            <div class="m-hero__stat">
+              <span class="m-hero__stat-value" data-stat="3">0</span>
+              <span class="m-hero__stat-label">Tiers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-section m-section--flush" id="wonders">
+      <div class="container">
+        <div class="ep-grid" id="ep-grid"></div>
+      </div>
+    </section>
+
+    <section class="m-section" id="bonus">
+      <div class="container">
+        <div class="m-section__head reveal">
+          <div>
+            <span class="eyebrow">Off the Wonderwall</span>
+            <h2 class="m-section__title">Ten bonus wonders.</h2>
+          </div>
+          <p class="m-section__note">
+            Ten objects outside the Wonderwall of 42 that still make a strong case for a glance, drawn from the book's Bonus Wonders section.
+          </p>
+        </div>
+        <div class="ep-grid ep-grid--bonus" id="bonus-grid"></div>
+      </div>
+    </section>
+
+    <section class="m-section" id="how">
+      <div class="container m-how reveal">
+        <span class="eyebrow">How each wonder page works</span>
+        <h2 class="m-section__title">Every wonder gets its own experience.</h2>
+        <p>
+          Each page opens with the wonder's best shot through a $1,000,000,000 space telescope, pulls the strongest quotes from the transcript, and renders the Beauty, Power, Mystery, and Wonder Rating scores as animated ring meters at the bottom. You can then toggle through the same object at three price points, from a $500 Seestar S50 in a back garden, to pro-grade remote observatories, to the Hubble Space Telescope above the atmosphere.
+        </p>
+        <ul>
+          <li>
+            <strong>Cinematic hero</strong>
+            <span>Poster image from the space telescope; click to play the full segment.</span>
+          </li>
+          <li>
+            <strong>Book-sourced key facts</strong>
+            <span>Magnitude, naked-eye, distance, constellation, best time, coordinates.</span>
+          </li>
+          <li>
+            <strong>Animated ratings</strong>
+            <span>Beauty, Power, Mystery and Wonder dials fill to their scored values.</span>
+          </li>
+          <li>
+            <strong>Telescope comparator</strong>
+            <span>Three side-by-side views auto-cycling: $500, $1M, $1B.</span>
+          </li>
+          <li>
+            <strong>How to spot it</strong>
+            <span>Sky map, fun fact, and the exact data table from the book.</span>
+          </li>
+          <li>
+            <strong>The verdict</strong>
+            <span>Wall-placement clip, ring meters, and Damon's closing line.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="sitefoot">
+    <div class="container sitefoot__grid">
+      <div>
+        <strong>42 Wonders of Our Night Sky</strong><br/>
+        An astronomy series by Damon Scotting · Astronomical
+      </div>
+      <div>42 wonders · 10 bonus · <a href="#wonders">Start here</a></div>
+    </div>
+  </footer>
+
+  <script src="scripts/stardust-cursor.js?v=46"></script>
+  <script src="scripts/master.js?v=46"></script>
+</body>
+</html>

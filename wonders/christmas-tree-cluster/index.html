@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wonder · 42 Wonders of Our Night Sky</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../styles/base.css?v=46" />
+  <link rel="stylesheet" href="../../styles/wonder.css?v=46" />
+</head>
+<body data-slug="christmas-tree-cluster">
+
+  <div class="starfield-bg" aria-hidden="true">
+    <div class="starfield-bg__layer starfield-bg__layer--a"></div>
+    <div class="starfield-bg__layer starfield-bg__layer--b"></div>
+    <div class="starfield-bg__layer starfield-bg__layer--c"></div>
+  </div>
+  <div class="stardust-container" aria-hidden="true"></div>
+
+  <header class="topnav">
+    <div class="container topnav__inner">
+      <a href="../../index.html" class="topnav__logo">
+        <span class="mark">42</span>
+        <span>Wonders of Our Night Sky</span>
+      </a>
+      <nav class="topnav__links">
+        <a href="../../index.html#wonders">Wonders</a>
+        <a href="../../index.html#episodes">Episodes</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Scroll-spy index (left rail), appears after the hero -->
+  <nav class="w-scroll-index" aria-label="Page sections">
+    <div class="w-scroll-index__track"><div class="w-scroll-index__fill" data-scroll-fill></div></div>
+    <ol class="w-scroll-index__list">
+      <li><a href="#s-hero"    data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">Intro</span></a></li>
+      <li><a href="#s-what"    data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">What is it?</span></a></li>
+      <li><a href="#s-spot"    data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">How to spot</span></a></li>
+      <li><a href="#s-facts"   data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">Key facts</span></a></li>
+      <li><a href="#s-tiers"   data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">Telescopes</span></a></li>
+      <li><a href="#s-verdict" data-scroll-link><span class="w-scroll-index__dot"></span><span class="w-scroll-index__label">The verdict</span></a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="w-hero" id="s-hero" data-hero>
+      <img class="w-hero__poster" src="" alt="" />
+      <video class="w-hero__video" muted playsinline loop preload="none"></video>
+      <div class="w-hero__gradient"></div>
+      <div class="container w-hero__content">
+        <div class="w-hero__meta">
+          <span><span class="bullet"></span><span data-hero-episode></span></span>
+          <span><span data-hero-time></span></span>
+          <span><span data-hero-designation></span></span>
+          <span><span data-hero-kind></span></span>
+        </div>
+        <h1 class="w-hero__title" data-hero-title></h1>
+        <p class="w-hero__headline" data-hero-headline></p>
+        <div class="w-hero__controls">
+          <button class="btn btn--primary" type="button" data-hero-play>
+            <span class="label">Play with sound</span>
+          </button>
+          <button class="btn" type="button" data-hero-unmute>
+            <span class="label">Unmute</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW: specs | Beauty / Power / Mystery | Wonder Rating + Ranked -->
+    <section class="w-overview">
+      <div class="w-overview__inner">
+        <div class="w-overview__specs">
+          <div class="w-spec">
+            <div class="w-spec__label">Magnitude</div>
+            <div class="w-spec__value" data-spec-magnitude></div>
+          </div>
+          <div class="w-spec">
+            <div class="w-spec__label">Object type</div>
+            <div class="w-spec__value" data-spec-object-type></div>
+          </div>
+          <div class="w-spec">
+            <div class="w-spec__label">Distance</div>
+            <div class="w-spec__value" data-spec-distance></div>
+          </div>
+        </div>
+        <div class="w-overview__ratings">
+          <div class="w-rating" data-axis="beauty">
+            <span class="w-rating__label">Beauty</span>
+            <div class="w-rating__row">
+              <span class="w-rating__value" data-rating-value="beauty">0</span>
+              <span class="w-rating__bar"><span class="w-rating__bar-fill" data-rating-bar="beauty"></span></span>
+            </div>
+          </div>
+          <div class="w-rating" data-axis="power">
+            <span class="w-rating__label">Power</span>
+            <div class="w-rating__row">
+              <span class="w-rating__value" data-rating-value="power">0</span>
+              <span class="w-rating__bar"><span class="w-rating__bar-fill" data-rating-bar="power"></span></span>
+            </div>
+          </div>
+          <div class="w-rating" data-axis="mystery">
+            <span class="w-rating__label">Mystery</span>
+            <div class="w-rating__row">
+              <span class="w-rating__value" data-rating-value="mystery">0</span>
+              <span class="w-rating__bar"><span class="w-rating__bar-fill" data-rating-bar="mystery"></span></span>
+            </div>
+          </div>
+        </div>
+        <div class="w-overview__verdict">
+          <div class="w-rating w-rating--wonder" data-axis="wonder">
+            <span class="w-rating__label">Wonder Rating</span>
+            <div class="w-rating__row">
+              <span class="w-rating__value" data-rating-value="wonder">0</span>
+              <span class="w-rating__bar"><span class="w-rating__bar-fill" data-rating-bar="wonder"></span></span>
+            </div>
+          </div>
+          <div class="w-rating w-rating--rank">
+            <span class="w-rating__label">Ranked</span>
+            <div class="w-rating__row">
+              <span class="w-rating__value w-rating__value--rank" data-overview-rank>#?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT IS IT? + HOW TO FIND + HOW TO SPOT (tight, single flow) -->
+    <section class="w-section" id="s-what">
+      <div class="container">
+        <h2 class="w-section__title w-section__title--centre w-section__title--gold reveal">What is it?</h2>
+        <div class="w-prose w-prose--centre reveal" data-prose-intro></div>
+
+        <div class="w-howfind reveal" data-howfind-mount>
+          <div class="w-howfind__badge">How to find it</div>
+          <video muted playsinline preload="metadata" data-howfind-video></video>
+        </div>
+        <p class="w-howfind__caption reveal" data-howfind-caption></p>
+      </div>
+    </section>
+
+    <!-- HOW TO SPOT (sky map + data table, no title, tight with section above) -->
+    <section class="w-section--flush w-howspot-section" id="s-spot" data-howspot-section hidden>
+      <div class="container">
+        <div class="w-howspot reveal" data-howspot-mount hidden>
+          <div class="w-howspot__body">
+            <figure class="w-howspot__map">
+              <img data-howspot-img src="" alt="Sky map showing where to find this wonder" loading="lazy" />
+              <figcaption class="w-howspot__caption" data-howspot-caption></figcaption>
+            </figure>
+            <dl class="w-howspot__data" data-howspot-data></dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY FACTS (fun fact + tile grid + inline pull quote, no title) -->
+    <section class="w-section--flush w-keyfacts-section" id="s-facts" data-keyfacts-section hidden>
+      <div class="container">
+        <div class="w-funfact reveal" data-funfact-mount hidden>
+          <span class="w-funfact__badge">Fun fact</span>
+          <p class="w-funfact__text" data-funfact-text></p>
+        </div>
+
+        <div class="w-keyfacts-grid reveal" data-keyfacts-grid></div>
+
+        <div class="w-pullquote reveal" data-pullquote-section hidden>
+          <p class="w-pullquote__text" data-pullquote-text data-typewriter></p>
+          <div class="w-pullquote__attr" data-pullquote-attr></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIERS: interactive comparator -->
+    <section class="w-section" id="s-tiers">
+      <div class="container">
+        <h2 class="w-section__title w-section__title--centre w-section__title--emphatic reveal">What it looks like through 3 <em>VERY</em> different telescopes.</h2>
+        <p class="w-tiers-intro w-tiers-intro--centre reveal" data-tiers-intro></p>
+        <div class="w-compare reveal" data-compare-mount></div>
+      </div>
+    </section>
+
+    <!-- FINALE: closing quote (left) + wall-placement clip (right) + rings -->
+    <section class="w-finale reveal" id="s-verdict">
+      <div class="container">
+        <div class="w-finale__split">
+          <div class="w-finale__quote-block">
+            <p class="w-finale__quote" data-final-quote-text data-typewriter></p>
+            <div class="w-finale__attribution" data-final-quote-attribution></div>
+          </div>
+
+          <figure class="w-finale__wall" data-wall-mount hidden>
+            <video muted playsinline preload="metadata" data-wall-video></video>
+            <div class="w-finale__wall-annot">
+              <div class="w-finale__wall-top">
+                <span class="w-finale__wall-badge"><span class="dot"></span>Wonderwall · Live</span>
+                <span class="w-finale__wall-rank-chip" data-wall-rank>
+                  <span data-wall-rank-num>#?</span>
+                  <small>of 42</small>
+                </span>
+              </div>
+              <span class="w-finale__wall-bottom">Placed on the Wonderwall</span>
+            </div>
+          </figure>
+        </div>
+
+        <div class="w-finale__verdict">
+          <div class="w-verdict-rings" data-rings-mount>
+            <div class="w-ring" data-ring="beauty" data-value="0">
+              <svg class="w-ring__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="w-ring__track" cx="60" cy="60" r="52" />
+                <circle class="w-ring__arc" cx="60" cy="60" r="52" />
+              </svg>
+              <div class="w-ring__center">
+                <div class="w-ring__value" data-ring-value="beauty">0</div>
+                <div class="w-ring__label">Beauty</div>
+              </div>
+            </div>
+            <div class="w-ring" data-ring="power" data-value="0">
+              <svg class="w-ring__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="w-ring__track" cx="60" cy="60" r="52" />
+                <circle class="w-ring__arc" cx="60" cy="60" r="52" />
+              </svg>
+              <div class="w-ring__center">
+                <div class="w-ring__value" data-ring-value="power">0</div>
+                <div class="w-ring__label">Power</div>
+              </div>
+            </div>
+            <div class="w-ring" data-ring="mystery" data-value="0">
+              <svg class="w-ring__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="w-ring__track" cx="60" cy="60" r="52" />
+                <circle class="w-ring__arc" cx="60" cy="60" r="52" />
+              </svg>
+              <div class="w-ring__center">
+                <div class="w-ring__value" data-ring-value="mystery">0</div>
+                <div class="w-ring__label">Mystery</div>
+              </div>
+            </div>
+            <div class="w-ring w-ring--wonder" data-ring="wonder" data-value="0">
+              <svg class="w-ring__svg" viewBox="0 0 160 160" aria-hidden="true">
+                <circle class="w-ring__track" cx="80" cy="80" r="70" />
+                <circle class="w-ring__arc" cx="80" cy="80" r="70" />
+              </svg>
+              <div class="w-ring__center">
+                <div class="w-ring__value" data-ring-value="wonder" data-wonder-number="0">0</div>
+                <div class="w-ring__label">Wonder Rating</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-finale__rank" data-wonderwall-rank></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="w-foot">
+    <div class="container w-foot__row">
+      <a class="w-foot__link w-foot__link--prev" href="#" data-nav-prev>
+        <span class="w-foot__eyebrow">Previous wonder</span>
+        <span class="w-foot__link-title" data-nav-prev-title></span>
+      </a>
+      <div class="w-foot__center">
+        <a class="w-foot__home" href="../../index.html">All 42 wonders</a>
+      </div>
+      <a class="w-foot__link w-foot__link--next" href="#" data-nav-next>
+        <span class="w-foot__eyebrow">Next wonder</span>
+        <span class="w-foot__link-title" data-nav-next-title></span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="../../scripts/stardust-cursor.js?v=46"></script>
+  <script src="../../scripts/wonder-render.js?v=46"></script>
+  <script src="../../scripts/wonder.js?v=46"></script>
+</body>
+</html>
