@@ -55,6 +55,13 @@
       unmuteBtn.querySelector('.label').textContent = video.muted ? 'Unmute' : 'Mute';
     });
 
+    video.addEventListener('ended', () => {
+      hero.classList.remove('is-playing');
+      exitImmersive();
+      if (playBtn) playBtn.querySelector('.label').textContent = 'Play with sound';
+      document.getElementById('s-what')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
     // Reveal on mousemove while playing, re-arm the idle timer.
     hero.addEventListener('mousemove', () => {
       if (!hero.classList.contains('is-playing')) return;
