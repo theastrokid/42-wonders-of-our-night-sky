@@ -23,7 +23,7 @@
       "kind": "Stellar nursery",
       "tagline": "The heart of our night sky, a rite of passage for anyone who looks up.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/01%20-%20Orion%20Nebula.mp4",
+        "full": "../../assets/hero-clips/orion-nebula.mp4",
         "episode": "Episode 1",
         "episodeTimestamp": "08:06–12:21",
         "duration": "4:15"
@@ -222,7 +222,7 @@
       "kind": "Spiral galaxy",
       "tagline": "800 billion suns, 31 million light years, one iconic brim.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/02%20-%20Sombrero%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/sombrero-galaxy.mp4",
         "episode": "Episode 1",
         "episodeTimestamp": "01:00 to 03:26",
         "duration": "2:26"
@@ -416,7 +416,7 @@
       "kind": "Globular cluster",
       "tagline": "Half a million ancient suns packed into 145 light years of sky.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/03%20-%20Hercules%20Cluster.mp4",
+        "full": "../../assets/hero-clips/hercules-cluster.mp4",
         "episode": "Episode 1",
         "episodeTimestamp": "04:33–07:18",
         "duration": "2:45"
@@ -608,7 +608,7 @@
       "kind": "Supermassive black hole",
       "tagline": "The first black hole ever directly imaged. 1,000× larger than our own.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/04%20-%20Black%20Hole.mp4",
+        "full": "../../assets/hero-clips/black-hole.mp4",
         "episode": "Episode 2",
         "episodeTimestamp": "07:24–13:35",
         "duration": "6:11"
@@ -806,7 +806,7 @@
       "kind": "Gas giant planet",
       "tagline": "The crown jewel of our solar system. A planet with ears.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/05%20-%20Saturn.mp4",
+        "full": "../../assets/hero-clips/saturn.mp4",
         "episode": "Episode 2",
         "episodeTimestamp": "03:31–06:30",
         "duration": "2:59"
@@ -979,7 +979,7 @@
       "kind": "Emission nebula",
       "tagline": "A cosmic Valentine 7,500 light years from home.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/06%20-%20Heart%20Nebula.mp4",
+        "full": "../../assets/hero-clips/heart-nebula.mp4",
         "episode": "Episode 2",
         "episodeTimestamp": "00:46–03:02",
         "duration": "2:16"
@@ -1146,7 +1146,7 @@
       "kind": "Binary star system",
       "tagline": "Golden and sapphire, one of the best hooks in astronomy.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/07%20-%20Albireo.mp4",
+        "full": "../../assets/hero-clips/albireo.mp4",
         "episode": "Episode 3",
         "episodeTimestamp": "00:35–02:57",
         "duration": "2:22"
@@ -1314,7 +1314,7 @@
       "kind": "Reflection nebula",
       "tagline": "A nebula that flickers, like a star wearing a white cape.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/08%20-%20Hubbles%20Variable%20Nebula.mp4",
+        "full": "../../assets/hero-clips/hubbles-variable-nebula.mp4",
         "episode": "Episode 3",
         "episodeTimestamp": "06:06–07:58",
         "duration": "1:52"
@@ -1482,7 +1482,7 @@
       "kind": "Planetary nebula",
       "tagline": "How our own sun will look in five billion years.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/09%20-%20Helix%20Nebula.mp4",
+        "full": "../../assets/hero-clips/helix-nebula.mp4",
         "episode": "Episode 3",
         "episodeTimestamp": "09:19–11:15",
         "duration": "1:56"
@@ -1650,7 +1650,7 @@
       "kind": "Gas giant planet",
       "tagline": "The god of all planets. Plus four bonus attractions.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/10%20-%20Jupiter.mp4",
+        "full": "../../assets/hero-clips/jupiter.mp4",
         "episode": "Episode 4",
         "episodeTimestamp": "06:26–10:21",
         "duration": "3:55"
@@ -1823,7 +1823,7 @@
       "kind": "Globular cluster",
       "tagline": "Wonder #26 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/11%20-%20Messier%203.mp4",
+        "full": "../../assets/hero-clips/messier-3.mp4",
         "episode": "Episode 4",
         "episodeTimestamp": "",
         "duration": ""
@@ -1968,7 +1968,7 @@
       "kind": "Galaxy trio",
       "tagline": "Wonder #30 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/12%20-%20Leo%20Triplet.mp4",
+        "full": "../../assets/hero-clips/leo-triplet.mp4",
         "episode": "Episode 4",
         "episodeTimestamp": "",
         "duration": ""
@@ -2113,7 +2113,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #2 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/13%20-%20Andromeda%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/andromeda-galaxy.mp4",
         "episode": "Episode 5",
         "episodeTimestamp": "",
         "duration": ""
@@ -2258,7 +2258,7 @@
       "kind": "Crewed spacecraft",
       "tagline": "Wonder #41 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/14%20-%20ISS.mp4",
+        "full": "../../assets/hero-clips/iss.mp4",
         "episode": "Episode 5",
         "episodeTimestamp": "",
         "duration": ""
@@ -2403,7 +2403,7 @@
       "kind": "Planetary nebula",
       "tagline": "Wonder #37 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/15%20-%20Dumbbell%20Nebula.mp4",
+        "full": "../../assets/hero-clips/dumbbell-nebula.mp4",
         "episode": "Episode 5",
         "episodeTimestamp": "",
         "duration": ""
@@ -2548,7 +2548,7 @@
       "kind": "Planet",
       "tagline": "Wonder #19 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/16%20-%20Mars.mp4",
+        "full": "../../assets/hero-clips/mars.mp4",
         "episode": "Episode 6",
         "episodeTimestamp": "",
         "duration": ""
@@ -2693,7 +2693,7 @@
       "kind": "Dark nebula",
       "tagline": "Wonder #7 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/17%20-%20Horsehead%20Nebula.mp4",
+        "full": "../../assets/hero-clips/horsehead-nebula.mp4",
         "episode": "Episode 6",
         "episodeTimestamp": "",
         "duration": ""
@@ -2838,7 +2838,7 @@
       "kind": "Galaxy collision",
       "tagline": "Wonder #20 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/18%20-%20Antennae%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/antennae-galaxy.mp4",
         "episode": "Episode 6",
         "episodeTimestamp": "",
         "duration": ""
@@ -2983,7 +2983,7 @@
       "kind": "Main-sequence star",
       "tagline": "Wonder #15 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/19%20-%20Sun.mp4",
+        "full": "../../assets/hero-clips/sun.mp4",
         "episode": "Episode 7",
         "episodeTimestamp": "",
         "duration": ""
@@ -3128,7 +3128,7 @@
       "kind": "Emission nebula",
       "tagline": "Wonder #24 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/20%20-%20Thors%20Helmet.mp4",
+        "full": "../../assets/hero-clips/thors-helmet.mp4",
         "episode": "Episode 7",
         "episodeTimestamp": "",
         "duration": ""
@@ -3273,7 +3273,7 @@
       "kind": "Open cluster",
       "tagline": "Wonder #33 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/21%20-%20Beehive%20Cluster.mp4",
+        "full": "../../assets/hero-clips/beehive-cluster.mp4",
         "episode": "Episode 7",
         "episodeTimestamp": "",
         "duration": ""
@@ -3418,7 +3418,7 @@
       "kind": "Planetary nebula",
       "tagline": "Wonder #18 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/22%20-%20Ring%20Nebula.mp4",
+        "full": "../../assets/hero-clips/ring-nebula.mp4",
         "episode": "Episode 8",
         "episodeTimestamp": "",
         "duration": ""
@@ -3563,7 +3563,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #12 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/23%20-%20Whirlpool%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/whirlpool-galaxy.mp4",
         "episode": "Episode 8",
         "episodeTimestamp": "",
         "duration": ""
@@ -3708,7 +3708,7 @@
       "kind": "Planet",
       "tagline": "Wonder #28 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/24%20-%20Uranus.mp4",
+        "full": "../../assets/hero-clips/uranus.mp4",
         "episode": "Episode 8",
         "episodeTimestamp": "",
         "duration": ""
@@ -3853,7 +3853,7 @@
       "kind": "Eclipsing binary star",
       "tagline": "Wonder #36 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/25%20-%20Algol.mp4",
+        "full": "../../assets/hero-clips/algol.mp4",
         "episode": "Episode 9",
         "episodeTimestamp": "",
         "duration": ""
@@ -3998,7 +3998,7 @@
       "kind": "Natural satellite",
       "tagline": "Wonder #17 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/26%20-%20Moon.mp4",
+        "full": "../../assets/hero-clips/moon.mp4",
         "episode": "Episode 9",
         "episodeTimestamp": "",
         "duration": ""
@@ -4143,7 +4143,7 @@
       "kind": "Variable reflection nebula",
       "tagline": "Wonder #34 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/27%20-%20Devil%20in%20Disguise.mp4",
+        "full": "../../assets/hero-clips/hinds-variable-nebula.mp4",
         "episode": "Episode 9",
         "episodeTimestamp": "",
         "duration": ""
@@ -4288,7 +4288,7 @@
       "kind": "Red supergiant",
       "tagline": "Wonder #14 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/28%20-%20Betelgeuse.mp4",
+        "full": "../../assets/hero-clips/betelgeuse.mp4",
         "episode": "Episode 10",
         "episodeTimestamp": "",
         "duration": ""
@@ -4433,7 +4433,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #23 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/29%20-%20Fireworks%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/fireworks-galaxy.mp4",
         "episode": "Episode 10",
         "episodeTimestamp": "",
         "duration": ""
@@ -4578,7 +4578,7 @@
       "kind": "Starburst galaxy",
       "tagline": "Wonder #21 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/30%20-%20Cigar%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/cigar-galaxy.mp4",
         "episode": "Episode 10",
         "episodeTimestamp": "",
         "duration": ""
@@ -4723,7 +4723,7 @@
       "kind": "Open cluster",
       "tagline": "Wonder #4 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/31%20-%20Pleiades.mp4",
+        "full": "../../assets/hero-clips/pleiades.mp4",
         "episode": "Episode 11",
         "episodeTimestamp": "",
         "duration": ""
@@ -4868,7 +4868,7 @@
       "kind": "Planet",
       "tagline": "Wonder #16 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/32%20-%20Venus.mp4",
+        "full": "../../assets/hero-clips/venus.mp4",
         "episode": "Episode 11",
         "episodeTimestamp": "",
         "duration": ""
@@ -5013,7 +5013,7 @@
       "kind": "Dark nebula",
       "tagline": "Wonder #35 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/33%20-%20Elephant%20Trunk%20Nebula.mp4",
+        "full": "../../assets/hero-clips/elephant-trunk-nebula.mp4",
         "episode": "Episode 11",
         "episodeTimestamp": "",
         "duration": ""
@@ -5158,7 +5158,7 @@
       "kind": "Multiple star system",
       "tagline": "Wonder #40 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/34%20-%20Mizar%20and%20Alcor.mp4",
+        "full": "../../assets/hero-clips/mizar-alcor.mp4",
         "episode": "Episode 12",
         "episodeTimestamp": "",
         "duration": ""
@@ -5303,7 +5303,7 @@
       "kind": "Emission nebula",
       "tagline": "Wonder #27 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/35%20-%20North%20America%20Nebula.mp4",
+        "full": "../../assets/hero-clips/north-america-nebula.mp4",
         "episode": "Episode 12",
         "episodeTimestamp": "",
         "duration": ""
@@ -5448,7 +5448,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #38 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/36%20-%20Whale%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/whale-galaxy.mp4",
         "episode": "Episode 12",
         "episodeTimestamp": "",
         "duration": ""
@@ -5593,7 +5593,7 @@
       "kind": "Star-forming region",
       "tagline": "Wonder #10 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/37%20-%20Pillars%20of%20Creation.mp4",
+        "full": "../../assets/hero-clips/pillars-of-creation.mp4",
         "episode": "Episode 13",
         "episodeTimestamp": "",
         "duration": ""
@@ -5738,7 +5738,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #39 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/38%20-%20Needle%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/needle-galaxy.mp4",
         "episode": "Episode 13",
         "episodeTimestamp": "",
         "duration": ""
@@ -5883,7 +5883,7 @@
       "kind": "Emission nebula",
       "tagline": "Wonder #32 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/39%20-%20Rosette%20Nebula.mp4",
+        "full": "../../assets/hero-clips/rosette-nebula.mp4",
         "episode": "Episode 13",
         "episodeTimestamp": "",
         "duration": ""
@@ -6028,7 +6028,7 @@
       "kind": "Supernova remnant",
       "tagline": "Wonder #1 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/42%20-%20Crab%20Nebula.mp4",
+        "full": "../../assets/hero-clips/crab-nebula.mp4",
         "episode": "Episode 14",
         "episodeTimestamp": "",
         "duration": ""
@@ -6173,7 +6173,7 @@
       "kind": "Supernova remnant",
       "tagline": "Wonder #42 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/40%20-%20Veil%20Nebula.mp4",
+        "full": "../../assets/hero-clips/veil-nebula.mp4",
         "episode": "Episode 14",
         "episodeTimestamp": "",
         "duration": ""
@@ -6318,7 +6318,7 @@
       "kind": "Spiral galaxy",
       "tagline": "Wonder #8 on the Wonderwall of 42.",
       "clip": {
-        "full": "../../../42%20Wonder%20Clips/Final%20Exports/41%20-%20Pinwheel%20Galaxy.mp4",
+        "full": "../../assets/hero-clips/pinwheel-galaxy.mp4",
         "episode": "Episode 14",
         "episodeTimestamp": "",
         "duration": ""
